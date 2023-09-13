@@ -1,9 +1,11 @@
-# savol = input("savol: ")
-# if savol.find("kitob")>0 or savol.find("kutubxona") >0:
-#     savol = input("sizga qanday kitoblar yoqadi: ")
-#     if savol.find("detektiv")>=0:
-#       savol = input("Shaytanat kitobi haqidagi fikringgiz: ")
-#       print("yaxshi");
+# yangilandim
+savol = input("savol: ")
+if savol.find("kitob")>0 or savol.find("kutubxona") >0:
+    savol = input("sizga qanday kitoblar yoqadi: ")
+    if savol.find("detektiv")>=0:
+      savol = input("Shaytanat kitobi haqidagi fikringgiz: ")
+      print("yaxshi");
+
 #     elif savol.find("diniy")>=0:
 #       print("Sizga hadis va hayot nomli kitobni sovg'a qilamiz");
 # elif savol.find("sport")>=0:
